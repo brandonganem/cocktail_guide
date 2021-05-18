@@ -33,12 +33,12 @@ def load_cocktails(path):
 def main():
 
     j2_env = Environment(loader=FileSystemLoader('.'), trim_blocks=True)
-    template = j2_env.get_template('cocktail.jinja2')
-    if not os.path.exists('../pages'):
-        os.makedirs('../pages')
-    for cocktail in load_cocktails("../cocktails"):
+    template = j2_env.get_template('script/cocktail.jinja2')
+    if not os.path.exists('./pages'):
+        os.makedirs('./pages')
+    for cocktail in load_cocktails("./cocktails"):
         out = template.render(cocktail)
-        with open(f"../pages/{cocktail['Name']}.md", "w") as f:
+        with open(f"./pages/{cocktail['Name']}.md", "w") as f:
             f.write(out)
 
 if __name__ == "__main__":
