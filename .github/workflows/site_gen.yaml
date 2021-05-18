@@ -28,7 +28,7 @@ jobs:
     - name: Generate Cocktail Markdown
       run: pipenv run python ./script/markdown_gen.py
     - name: Copy-pages-config
-      run: cp _config.yml pages/; cp README.md pages/
+      run: cp _config.yml pages/
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.3
       with:
