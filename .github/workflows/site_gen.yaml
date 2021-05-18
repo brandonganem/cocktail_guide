@@ -1,0 +1,27 @@
+
+name: cocktail-renderer
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  build-markdown:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+    - name: Install pipenv
+      run: |
+        python -m pip install --upgrade pipenv wheel
+    - id: cache-pipenv
+      uses: actions/cache@v1
+      with:
+        path: ~/.local/share/virtualenvs
+        key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
+    - name: Install dependencies
+      if: steps.cache-pipenv.outputs.cache-hit != 'true'
+      run: |
+        pipenv install
+    - name: Generate Cocktail Markdown
+      run: pipenv run python ./script/markdown_gen.py

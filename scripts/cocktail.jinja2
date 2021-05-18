@@ -1,35 +1,35 @@
-# {{ name }}
+# {{ Name }}
 
-{{ coctail_desc_short }}
-{{% if cocktail_desc %}}
+{{ cocktail_desc_short }}
+{% if cocktail_desc %}
 {{ cocktail_desc }}
-{{% endif %}}
+{% endif %}
 
 ## Ingredients
 
-| Name | Pour |
+| Name | oz |
 | ----------- | ------- |
-{% for ingredient in ingredients %}
-| {{ ingredient.name }} | {{ ingredient.pour }} oz |
+{% for ingredient in Ingredients %}
+| {{ ingredient.name }} | {{ ingredient.pour }} |
 {% endfor %}
 
-{{% if garnish %}}
-_Garnish:_ {{ garnish }}
-{{% endif %}}
-{{% if glass %}}
-_Glass:_ {{ glass }}
-{{% endif %}}
+{% if Garnish %}
+_Garnish:_ {{ Garnish }}
+{% endif %}
+{% if Glass %}
+_Glass:_ {{ Glass }}
+{% endif %}
 
 ## Recipe
 
-{{ recipe }}
+{{ Recipe }}
 
-{% if source %}
-source: {{ source }}
+{% if Source %}
+source: {{ Source }}
 {% endif %}
 
-{% if tags %}
-{% for tag in tags %}
+{% if Tags %}
+{% for tag in Tags %}
 [^{{loop.index}}]: {{ tag }}
 {% endfor %}
 {% endif %}
