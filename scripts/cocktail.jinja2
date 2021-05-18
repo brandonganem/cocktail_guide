@@ -13,7 +13,12 @@
 | {{ ingredient.name }} | {{ ingredient.pour }} oz |
 {% endfor %}
 
+{{% if garnish %}}
 _Garnish:_ {{ garnish }}
+{{% endif %}}
+{{% if glass %}}
+_Glass:_ {{ glass }}
+{{% endif %}}
 
 ## Recipe
 
