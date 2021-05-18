@@ -36,9 +36,11 @@ def main():
     template = j2_env.get_template('script/cocktail.jinja2')
     if not os.path.exists('./pages'):
         os.makedirs('./pages')
+    if not os.path.exists('./pages/cocktails'):
+        os.makedirs('./pages/cocktails')
     for cocktail in load_cocktails("./cocktails"):
         out = template.render(cocktail)
-        with open(f"./pages/{cocktail['Name']}.md", "w") as f:
+        with open(f"./pages/cocktails/{cocktail['Name']}.md", "w") as f:
             f.write(out)
 
 if __name__ == "__main__":
