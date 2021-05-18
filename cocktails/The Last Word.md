@@ -12,6 +12,7 @@ An _Equal-Parts_ Cocktail.
 | Lime Juice | 0.75 |
 
 _Garnish:_ A Maraschino cherry
+
 _Glass:_ Coupe
 
 ## Recipe
