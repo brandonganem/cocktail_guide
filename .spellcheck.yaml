@@ -3,4 +3,4 @@ matrix:
   aspell:
     lang: en
   sources:
-  - 'cocktails/***.yaml'
+  - 'cocktails/**.yaml'
