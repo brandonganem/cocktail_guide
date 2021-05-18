@@ -1,0 +1,6 @@
+matrix:
+- name: yaml
+  aspell:
+    lang: en
+  sources:
+  - 'cocktails/**/*.yaml'
