@@ -9,3 +9,4 @@ jobs:
       uses: ibiqlik/action-yamllint@v3
       with:
         file_or_dir: cocktails/
+        config_file: .yamllint.yaml
