@@ -2,5 +2,8 @@ matrix:
 - name: yaml
   aspell:
     lang: en
+  dictionary:
+    wordlists:
+      - .wordlist.txt
   sources:
   - 'cocktails/**/*.yaml'
