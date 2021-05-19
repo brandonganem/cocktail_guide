@@ -2,7 +2,7 @@
 
 ![image](https://cdn.shopify.com/s/files/1/0583/3185/products/Penicillin2.0_5000x.jpg?v=1607060729)
 
-A Sour Cocktail.
+_Style_: A Sour Cocktail.
 
 ## Ingredients
 

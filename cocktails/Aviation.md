@@ -2,7 +2,7 @@
 
 ![image](https://data.thefeedfeed.com/static/2020/04/13/15868057565e94bbfc72784.jpg)
 
-An _Equal-Parts_ Cocktail.
+_Style_: An _Equal-Parts_ Cocktail.
 
 ## Ingredients
 

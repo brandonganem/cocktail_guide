@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/6827750/118741597-94cd2700-b81c-11eb-85aa-db6ad4709c16.png)
 
-A Sour Cocktail.
+_Style_: A Sour Cocktail.
 
 ## Ingredients
 

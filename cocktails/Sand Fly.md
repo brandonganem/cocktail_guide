@@ -1,7 +1,7 @@
 # Sand Fly
 
 
-An _Equal-Parts_ Cocktail.
+_Style_: An _Equal-Parts_ Cocktail.
 
 ## Ingredients
 
