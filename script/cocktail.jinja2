@@ -1,5 +1,9 @@
 # {{ Name }}
 
+{% if Picture %}
+![image]({{ Picture }})
+{% endif %}
+
 {{ cocktail_desc_short }}
 {% if cocktail_desc %}
 {{ cocktail_desc }}
