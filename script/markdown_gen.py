@@ -6,8 +6,8 @@ from jinja2 import Environment, FileSystemLoader
 
 def _short_desc(style):
     if re.match('(?i)^[a,e,i,o,u]', style):
-        return f"An _{style}_ Cocktail."
-    return f"A {style} Cocktail."
+        return f"_Style_: An _{style}_ Cocktail."
+    return f"_Style_: A {style} Cocktail."
 
 def _generate_ingredients(ingredients):
     return_val = []
