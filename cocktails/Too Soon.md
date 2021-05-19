@@ -1,5 +1,6 @@
 # Too Soon
 
+![image](https://user-images.githubusercontent.com/6827750/118750505-8b988600-b82d-11eb-8f06-837bcb0aae82.png)
 
 _Style_: Sour
 
