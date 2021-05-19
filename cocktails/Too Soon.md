@@ -1,7 +1,7 @@
 # Too Soon
 
 
-_Style_: A Sour Cocktail.
+_Style_: Sour
 
 ## Ingredients
 
