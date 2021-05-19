@@ -1,4 +1,4 @@
-# Paper Plane
+# Sand Fly
 
 
 An _Equal-Parts_ Cocktail.
@@ -7,12 +7,12 @@ An _Equal-Parts_ Cocktail.
 
 | Name | oz |
 | ----------- | ------- |
-| Bourbon | 0.75 |
-| Amaro Nonino | 0.75 |
-| Aperol | 0.75 |
+| Islay Scotch | 0.75 |
+| Campari | 0.75 |
+| Ginger Syrup | 0.75 |
 | Lemon Juice | 0.75 |
 
-_Garnish:_ None
+_Garnish:_ Candied Ginger
 
 _Glass:_ Coupe
 
@@ -20,8 +20,8 @@ _Glass:_ Coupe
 
 Combine all ingredients in equal parts into a shaker tin. Add ice, shake and double strain into a coupe glass.
 
-source: [Sam Ross](https://punchdrink.com/recipes/paper-plane/)
+source: [Sam Ross](https://www.reddit.com/r/cocktails/comments/isaos2/sand_fly_a_smoky_scotch_mosquito_riff/)
 
 [^1]: Citrus forward
-[^2]: Sam Ross
-[^3]: Modern Classic
+[^2]: Smokey
+[^3]: Classic
